@@ -8,6 +8,6 @@
 	}
 </style>
 
-<script require="@dcat-admin-ext.lightbox">
+<script require="@abovesky.dcat-lightbox">
 	$('.extension-demo').extensionDemo();
 </script>

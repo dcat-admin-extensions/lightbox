@@ -2,7 +2,7 @@
 
 #### 安装
 ```
-composer require dcat-admin-ext/lightbox
+composer require abovesky/dcat-lightbox
 ```
 
 >具体安装方法请参考官方文档
@@ -20,6 +20,6 @@ $show->field('images')->lightbox();
 
 #### License
 
-Licensed under The [MIT License (MIT). ](https://github.com/dcat-admin-ext/lightbox/blob/master/LICENSE)
+Licensed under The [MIT License (MIT). ](https://github.com/dcat-admin-extensions/lightbox/blob/master/LICENSE)
 
 

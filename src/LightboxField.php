@@ -1,6 +1,6 @@
 <?php
 
-namespace DcatAdminExt\Lightbox;
+namespace Abovesky\DcatAdmin\Lightbox;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\Show\AbstractField;
@@ -47,7 +47,7 @@ SCRIPT;
             return "<img src='$src' style='max-width:{$width}px;max-height:{$height}px' class='img img-thumbnail' />";
         })->implode('&nbsp;');
 
-        Admin::requireAssets('@dcat-admin-ext.lightbox');
+        Admin::requireAssets('@abovesky.dcat-lightbox');
         Admin::script($this->script());
 
         return "<div id='$this->id'>$html</div>";

@@ -1,9 +1,9 @@
 {
-    "name": "dcat-admin-ext/lightbox",
+    "name": "abovesky/dcat-lightbox",
     "description": "Dcat Admin 图片预览扩展",
     "type": "library",
     "keywords": ["dcat-admin", "extension", "lightbox"],
-    "homepage": "https://github.com/dcat-admin-ext/lightbox",
+    "homepage": "https://github.com/dcat-admin-extensions/lightbox",
     "license": "MIT",
     "authors": [
         {
@@ -17,14 +17,14 @@
     },
     "autoload": {
         "psr-4": {
-            "DcatAdminExt\\Lightbox\\": "src/"
+            "Abovesky\\DcatAdmin\\Lightbox\\": "src/"
         }
     },
     "extra": {
-        "dcat-admin": "DcatAdminExt\\Lightbox\\LightboxServiceProvider",
+        "dcat-admin": "Abovesky\\DcatAdmin\\Lightbox\\LightboxServiceProvider",
         "laravel": {
             "providers": [
-                "DcatAdminExt\\Lightbox\\LightboxServiceProvider"
+                "Abovesky\\DcatAdmin\\Lightbox\\LightboxServiceProvider"
             ]
         }
     }

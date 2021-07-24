@@ -1,6 +1,6 @@
 <?php
 
-namespace DcatAdminExt\Lightbox;
+namespace Abovesky\DcatAdmin\Lightbox;
 
 use Dcat\Admin\Extend\Setting as Form;
 

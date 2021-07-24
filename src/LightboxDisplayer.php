@@ -1,6 +1,6 @@
 <?php
 
-namespace DcatAdminExt\Lightbox;
+namespace Abovesky\DcatAdmin\Lightbox;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\Grid\Displayers\AbstractDisplayer;
@@ -43,7 +43,7 @@ SCRIPT;
 HTML;
         })->implode('&nbsp;');
 
-        Admin::requireAssets('@dcat-admin-ext.lightbox');
+        Admin::requireAssets('@abovesky.dcat-lightbox');
         Admin::script($this->script());
 
         return "<div id='$this->id'>$html</div>";
