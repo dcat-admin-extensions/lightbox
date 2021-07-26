@@ -12,6 +12,9 @@ composer require abovesky/dcat-lightbox
 // 数据表格中使用
 $grid->column('images')->lightbox();
 
+//设置服务器和宽高
+$grid->column('images')->lightbox('http://xxx.com', 100, 100);
+
 // 数据详情中使用
 $show->field('images')->lightbox();
 ```
