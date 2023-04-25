@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "dcat/laravel-admin": "~2.2.2-beta"
+        "dcat/laravel-admin": "^2.2.2-beta"
     },
     "autoload": {
         "psr-4": {
